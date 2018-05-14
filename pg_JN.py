@@ -1,0 +1,18 @@
+import pyautogui as pg
+pg.hotkey('winleft','ctrl','d')
+pg.hotkey('winleft')
+pg.typewrite('Chrome\n',.2)
+pg.hotkey('winleft','up')
+pg.typewrite('Cooking by the book remix Lil John\n',.2)
+pg.moveTo(460,458,7)
+pg.click(460,458,1,0)
+pg.moveTo(64,627,3)
+pg.click(64,627,1,0)
+pg.hotkey('ctrl','t')
+pg.typrwrite('ArE YOu ReADy??????',.15)
+pg.moveTo(234,12,3)
+pg.click(234,12,1,0)
+pg.typewrite('Ur',2)
+pg.moveTo(426,2,3)
+pg.typewrite('computer',.1)
+MoveTo(
